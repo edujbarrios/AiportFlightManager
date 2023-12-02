@@ -7,3 +7,5 @@ This project is mainly based in emulating the workfow of an airline management o
 
 ## 1. Unit Testing has been added to the project
 ## 2. "Actions" Section has been enabled
+
+![image](./test.png)
