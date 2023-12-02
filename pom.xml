@@ -19,9 +19,6 @@
    
 </properties>
 
-
-    </properties>
-
     <build>
         <plugins>
             <plugin>
