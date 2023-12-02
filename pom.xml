@@ -14,7 +14,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <sonar.projectKey>edujbarrios_AiportFlightManager</sonar.projectKey>
-        <sonar.organization>edujbarrios_projects</sonar.organization>
+        <sonar.organization>metaheuristics-for-logistics-lab</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
 
