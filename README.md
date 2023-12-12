@@ -1,4 +1,4 @@
-# AiportFlightManager
+# AirportFlightManager
 
 
 This project is mainly based in emulating the workfow of an airline management of flights and passengers plus adding some tests
