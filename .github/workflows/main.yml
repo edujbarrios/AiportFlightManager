@@ -1,0 +1,40 @@
+name: Pruebas en Diferentes Máquinas
+
+on: [push, pull_request]
+
+jobs:
+  ubuntu_test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configurar JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - run: java -version
+    - run: # Comandos para ejecutar pruebas en Ubuntu
+
+  windows_test:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configurar JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - run: java -version
+    - run: # Comandos para ejecutar pruebas en Windows
+
+  macos_test:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configurar JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - run: java -version
+    - run: # Comandos para ejecutar pruebas en macOS
