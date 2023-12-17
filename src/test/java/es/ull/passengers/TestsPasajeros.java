@@ -128,4 +128,16 @@ public class TestsPasajeros {
         pasajero1.setFlight(null);
         assertNull(pasajero1.getFlight());
     }
+
+    @Test
+    @DisplayName("Excepción al agregar pasajero a vuelo lleno")
+    void excepcionAlAgregarPasajeroAVueloLleno() {
+        pasajero1.joinFlight(vuelo1);
+        pasajero2.joinFlight(vuelo1);
+        pasajero3.joinFlight(vuelo1);
+        Passenger pasajeroExtra = new Passenger("1011", "Marta", "US");
+        assertThrows(RuntimeException.class, () -> pasajeroExtra.joinFlight(vuelo1));
+    }
+
 }
+
