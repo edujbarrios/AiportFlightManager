@@ -7,6 +7,8 @@ This project is mainly based in emulating the workfow of an airline management o
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_AiportFlightManager&metric=coverage)](https://sonarcloud.io/summary/new_code?id=edujbarrios_AiportFlightManager)
 
-Check "Actions" section for more info.
+Check "Actions" section for more info about sonar checks, CircleCI intergartion as well as other execution checks.
+
+You can see a full report of sonarcloud section below:
 
 ![image](./test.png)
