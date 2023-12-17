@@ -15,7 +15,7 @@ This project is mainly based in emulating the workfow of an airline management o
 
 ---------------------------------------------------------------
 
-- Check "Actions" section for more info about:
+## Check "Actions" section for more info about:
 1. SonarCloud analysis
 2. CircleCI integration analysis
 3. Tests on Mac, windows and linux devices
