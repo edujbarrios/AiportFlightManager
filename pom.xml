@@ -77,33 +77,6 @@
 
   	<reporting>
 		<plugins>
-			<!-- Jenkins -->
-			<plugin>
-				<groupId>org.jenkins-ci.plugins</groupId>
-				<artifactId>metrics</artifactId>
-				<version>4.0.0</version>
-			</plugin>
-			<plugin>
-				<groupId>org.jenkins-ci.plugins.additional</groupId>
-				<artifactId>metrics</artifactId>
-				<version>1.0.0</version>
-			</plugin>
-			<plugin>
-				<groupId>org.jenkins-ci.plugins</groupId>
-				<artifactId>build-metrics</artifactId>
-				<version>2.0.0</version>
-			</plugin>
-			<plugin>
-				<groupId>org.jenkins-ci.plugins</groupId>
-				<artifactId>owasp-dependency-check</artifactId>
-				<version>5.0.0</version>
-			</plugin>
-			<plugin>
-				<groupId>org.jenkins-ci.plugins</groupId>
-				<artifactId>plot</artifactId>
-				<version>1.0.0</version>
-			</plugin>
-
 			<!--   <Generate Checkstyle Report As Part of the Project Reports>   -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
